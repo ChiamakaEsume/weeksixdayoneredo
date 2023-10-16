@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.get-started-button-parent{
+    position: relative;
+}
+.get-started-button{
+    position: absolute;
+    width: 300px;
+    left: 150px;
+    bottom: 100px;
+    
+}
+.hero-text{
+    position: absolute;
+    left: 150px;
+    bottom: 160px;
+}
+@media  screen and (max-width:600px) {
+    .get-started-button{
+        left: 50px;
+        bottom: 20px;
+        width: 150px;
+        padding: 5px!important;
+    }
+    .hero-text{
+        left: 50px;
+        bottom: 60px;
+        font-size: 1.6em;
+    }
+}
